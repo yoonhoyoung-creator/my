@@ -8,13 +8,15 @@ import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
 
 import SignUp from './chapter_11/SignUp';
+import Calculaor from './chapter_12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
   <React.StrictMode>
-    <SignUp />
-    <Clock />
+    <DarkOrLight/>
   </React.StrictMode>
 );
 }, 1000);
