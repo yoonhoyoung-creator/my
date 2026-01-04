@@ -4,23 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './chapter_03/Library';
-import Clock from './chapter_04/Clock';
-
-import SignUp from './chapter_11/SignUp';
-import Calculaor from './chapter_12/Calculator';
-import ProfileCard from './chapter_13/ProfileCard';
-import DarkOrLight from './chapter_14/DarkOrLight';
-import Blocks from './chpater_15/Blocks'
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(() => {
-  root.render(
+root.render(
   <React.StrictMode>
-    <Blocks />
+    <App />
   </React.StrictMode>
 );
-}, 1000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
